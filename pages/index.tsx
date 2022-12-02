@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
       <div className="z-10 ">
         <QueryClientProvider client={queryClient}>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Rick_and_Morty.svg" alt="" className=" w-full px-8 sm:w-1/2 mx-auto my-8"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Rick_and_Morty.svg" alt="" className=" w-full px-8 sm:w-1/2 mx-auto my-8"/> 
           <Charecters />
         </QueryClientProvider>
       </div>
